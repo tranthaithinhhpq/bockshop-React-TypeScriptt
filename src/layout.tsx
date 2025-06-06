@@ -1,9 +1,11 @@
-
+import { Outlet } from "react-router-dom"
+import AppHeader from "./assets/components/layout/app.header"
 function Layout() {
 
   return (
     <div>
-      hello world from layout.tsx
+      <AppHeader />
+      <Outlet />
     </div>
   )
 }
